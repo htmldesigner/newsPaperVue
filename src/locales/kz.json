@@ -1,0 +1,106 @@
+﻿{
+  "message": {
+    "value": "Қай қызметке тапсырыс бергіңіз келеді?",
+    "alert": "Сізге sms арқылы код жіберілді"
+  },
+
+  "validation": {
+    "value": "Міндетті түрде толтыру керек"
+  },
+
+  "index_title": "Қызметке қайда тапсырыс бергіңіз келеді?",
+  "service_newspaper": "Газеттерді таңдау",
+  "service_website": "Сайт арқылы интернетке",
+  "service_socialNetwork": "Әлеуметтік желілерге",
+  "order_price": "Тапсырыс соммасы",
+  "your_query": "Сіздің тапсырысыңыз",
+  "query_type": "Тапсырыс түрі",
+  "price": "Бағасы",
+
+  "ad_type": "Жарнама түрі",
+  "advt": "Хабарландыру",
+  "article": "Мақала",
+  "banner": "Баннер",
+  "necrology": "Азанама",
+  "remember": "Еске алу",
+
+
+  "order_type": "Тапсырыс түрі:",
+  "service_type": "Қызмет түрі",
+
+  "select_period": "Орналастыру кезеңін таңдаңыз",
+
+  "design_banner_price": "Баннерді жобалау құны",
+
+  "paper_line": "Топ",
+
+  "buttons": {
+    "next": "Әрі қарай", 
+    "back": "Кері оралу",
+    "start": "Осыдан бастау",
+    "stop": "Аяқтау",
+    "confirm": "Растау",
+    "pay": "Ақы төлеу",
+    "add_post_release": "Посттардың жариялану күндерін таңдаңыз",
+    "clear": "Анық"
+  },
+
+  "steps": {
+    "select_newspaper": "Газетті таңдау",
+    "choose_website": "Сайтты таңдау",
+    "select_social_network": "Әлеуметтік желі түрін таңдау",
+    "select_type": "Тапсырыс түрі",
+    "content": "Контент",
+    "make_request": "Тапсырысты рәсімдеу",
+    "pay": "Ақы төлеу"
+  },
+
+  "personal": {
+    "fio": "Аты-жөні",
+    "iin": "ЖСН",
+    "phone": "Телефоны",
+    "cod": "Растау үшін жіберілген код",
+    "send_code": "Код жіберу"
+  },
+
+  "forms": {
+    "select_newspapers": "Газетті таңдау",
+    "newspapers_list": "Газеттер тізімі",
+    "website_list": "Сайттар тізімі",
+
+    "comment": "Пікірге тапсырыс беру",
+
+    "choose_category": "Айдарды таңдау",
+    "ad_text": "Хабарландыру мәтіні",
+    "symbol_count": "Символ саны",
+    "limit": "Шектеу",
+    "select_newspaper_number": "Газет санын таңдаңыз",
+    "article_title": "Мақаланың тақырыбы",
+    "article_text": "Мақаланың мәтіні",
+    "own_text": "Өз мәтінім",
+    "order": "Тапсырыс беру",
+    "own_photo": "Өз фотомды жіберу",
+    "order_photo": "Фотографтың суретке түсіруіне тапсырыс беру",
+    "own_banner": "Өз баннерім",
+    "order_banner": "Баннер дизайнына тапсырыс беру",
+    "promo": "Жарнамалық пост",
+
+    "choose_website": "Сайтты таңдау",
+    "web_banner": "Веб баннер",
+    "select_web_banner": "Баннер көлемін таңдау",
+
+    "select_social_network": "Әлеуметтік желі түрін таңдау",
+    "image_sizes": "Суреттің көлемін таңдау",
+    "release_dates": "Посттың жариялдану мерзімі",
+    "date_placement": "Жарияланған күні",
+    "post_text": "Мәтінді жариялау",
+    "accommodation_cost": "Тұру құны",
+    "select_size": "Өлшемді таңдаңыз",
+    "prise_and_size_post": "Пост бағасы мен мөлшері",
+    "select_post_size": "Посттың өлшемін таңдаңыз",
+
+
+    "title": "Тақырып",
+    "text": "Мәтін"
+  }
+}

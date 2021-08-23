@@ -1,0 +1,134 @@
+@import "config"
+
+.cart
+  background: #DE9B18
+  border-radius: 12px
+  height: 66px
+  width: 100%
+  color: #fff
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  position: sticky
+  top: 48px
+
+.index-container
+  margin-top: 20px
+  border-radius: 4px
+  width: 100%
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.16)
+  padding: 60px 60px 30px 60px
+  background-color: #fff
+  margin-bottom: 50px
+
+.custom-button
+  border: none
+  background-color: #DE9B18
+  border-radius: 4px
+  padding: 13px 40px
+  color: #fff
+  font-size: 16px
+  outline: none
+  &:hover
+    color: #fff
+    background-color: darken(#DE9B18, 5%)
+  &:focus
+    box-shadow: none!important
+
+.form-group input
+  &:focus, &:active
+    box-shadow: none
+
+.bindInput
+  display: inline-block!important
+  padding: 0 10px
+  border-bottom-left-radius: 0
+  border-top-left-radius: 0
+  white-space: nowrap
+.bindButton input
+  border-bottom-right-radius: 0!important
+  border-top-right-radius: 0!important
+  &:focus, &:active
+    box-shadow: none
+// Steps component
+.steps
+  display: flex
+  justify-content: space-between
+  margin-bottom: 50px
+  .step
+    width: 100%
+    padding: 0 4px
+    text-align: center
+    &:first-child
+      text-align: left
+    &:last-child
+      text-align: right
+    p
+      font-size: 14px
+      font-weight: 700
+    .position
+      height: 8px
+      width: 100%
+      background-color: #C0C0C0
+      margin-bottom: 12px
+      &.active
+        background-color: #50C5D7
+
+
+.componentLabel
+  font-size: 16px
+  text-transform: uppercase
+
+.types
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-start
+  margin-bottom: 50px
+  .typeItem
+    flex-basis: 235px
+    border: 1px solid #ECECEC
+    padding: 12px 40px
+    border-radius: 12px
+    text-align: center
+    margin: 12px 0px
+    cursor: pointer
+    transition: .25s ease
+    &:hover, &.active
+      background-color: #50C5D7
+      color: #fff
+    p
+      padding: 0
+      margin: 0
+
+.releases
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-start
+  margin-bottom: 30px
+  .release
+    flex-basis: 150px
+    border: 1px solid #ECECEC
+    padding: 12px 12px
+    border-radius: 12px
+    text-align: center
+    margin: 12px 0px
+    cursor: pointer
+    transition: .25s ease
+    &.active
+      background-color: #50C5D7
+      color: #fff
+    &:hover
+      background-color: #038ca4
+      color: #fff
+    p
+      padding: 0
+      margin: 0
+
+// Component contentArea
+.contentArea
+  font-size: 14px
+
+.blocked
+  pointer-events: none
+  background-color: #e3e3e3

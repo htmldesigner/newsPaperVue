@@ -1,0 +1,105 @@
+{
+  "message": {
+    "value": "Где планируете заказать услугу?",
+    "alert": "Вам было отправленно sms с кодом"
+  },
+
+  "validation": {
+    "value": "Обязателно для заполнения"
+  },
+
+  "index_title": "Где планируете заказать услугу?",
+  "service_newspaper": "Газеты холдинга",
+  "service_website": " Интернет сайт ",
+  "service_socialNetwork": "Социальные сети",
+  "order_price": "Сумма заказа",
+  "your_query": "Ваша заявка",
+  "query_type": "Тип заявки",
+  "price": "Цена",
+
+  "ad_type": "Тип рекламы",
+  "advt": "Объявление",
+  "article": "Статья",
+  "banner": "Баннер",
+  "necrology": "Некролог",
+  "remember": "Еске алу",
+
+  "order_type": "Тип заказа:",
+  "service_type": "Тип услуги",
+
+  "select_period": "Выберите период размещения",
+
+  "design_banner_price": "Стоимость дизайна банера",
+
+  "paper_line": "Полоса",
+
+  "buttons": {
+    "next": "Далее",
+    "back": "Назад",
+    "start": "Начать с",
+    "stop": "Завершить",
+    "confirm": "Подтвердить",
+    "pay": "Оплатить",
+    "add_post_release": "Добавте даты выхода поста",
+    "clear": "Очистить"
+  },
+
+  "steps": {
+    "select_newspaper": "Выбор газеты",
+    "choose_website": "Выберите сайт",
+    "select_social_network": "Выбор соц. сети",
+    "select_type": "Тип заказа",
+    "content": "Контент",
+    "make_request": "Оформить заявку",
+    "pay": "Оплатить"
+  },
+
+  "personal": {
+    "fio": "ФИО",
+    "iin": "ИИН",
+    "phone": "Телефон",
+    "cod": "Код подтверждения",
+    "send_code": "Выслать код"
+  },
+
+  "forms": {
+    "select_newspapers": "Выберите газету",
+    "newspapers_list": "Список газет",
+    "website_list": "Список сайтов",
+
+    "comment": "Коментарий к заказу",
+
+    "choose_category": "Выберите рубрику",
+    "ad_text": "Текст объявления",
+    "symbol_count": "Количество символов",
+    "limit": "Лимит",
+    "select_newspaper_number": "Выберите номер газеты",
+    "article_title": "Заголовок статьи",
+    "article_text": "Текст статьи",
+    "own_text": "Свой текст",
+    "order": "Заказать",
+    "own_photo": "Свое фото",
+    "order_photo": "Заказное фото",
+    "own_banner": "Свой банер",
+    "order_banner": "Заказать дизайн банера",
+    "promo": "Рекламный пост",
+
+    "choose_website": "Выберите сайт",
+    "web_banner": "Веб баннер",
+    "select_web_banner": "Выберите баннер",
+
+    "select_social_network": "Выберите соц. сеть",
+    "image_sizes": "Доступные размеры изображений",
+    "release_dates": "Даты выхода постов",
+    "date_placement": "дата размещения",
+    "post_text": "Текст поста",
+    "accommodation_cost": "Стоимость размещения фото",
+    "select_size": "Выберите размер",
+    "prise_and_size_post": "Цена и размер поста",
+    "select_post_size": "Выберите размер поста",
+
+
+    "title": "Заголовок",
+    "text": "Текст"
+  }
+}

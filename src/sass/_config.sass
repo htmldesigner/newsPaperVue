@@ -1,0 +1,89 @@
+@import '~bootstrap/scss/bootstrap'
+
+// USER VARIABLES SECTION
+$accent: orange // Accent Color
+$fontsize: 16px // Body Font Size
+$textcolor: #333 // Text Color
+$lineheight: 1.65 // Document Line Height
+$userfont: PoppinsRegular, sans-serif // User Font Family
+$system: -apple-system, BlinkMacSystemFont, Arial, sans-serif
+
+$ProximaNovaRegular: ProximaNovaRegular, sans-serif
+$ProximaNovaBold: ProximaNovaBold, sans-serif
+$RobotoBold: RobotoBold, sans-serif
+$RobotoRegular: RobotoRegular
+
+$Poppins: PoppinsRegular, sans-serif
+
+
+// Bootstrap compatible gutter variable => $gutter
+$grid-gutter-width: 30px
+$gutter: $grid-gutter-width
+
+// IMPORT SECTION
+@import 'node_modules/bootstrap/scss/bootstrap-reboot.scss' // Bootstrap Reboot collection
+@import 'node_modules/bootstrap/scss/mixins/_breakpoints.scss' // Bootstrap Breakpoints mixin
+// @import 'node_modules/bootstrap/scss/bootstrap-grid.scss' // Optional Bootstrap Grid
+// @import 'node_modules/bootstrap/scss/utilities/_sizing.scss' // Optional Bootstrap Utilites
+// FONTS LOAD SECTION
+@mixin font($fname, $fstyle, $fweight, $furl)
+  @font-face
+    font-family: $fname
+    font-style: $fstyle
+    font-weight: $fweight
+    font-display: swap // Uncomment to initially display system fonts
+    src: local($fname), url($furl) format('woff2')
+
+@include font('ProximaNovaRegular', normal, 700, './fonts/ProximaNovaRegular/ProximaNovaRegular.woff')
+@include font('ProximaNovaBold', normal, 700, './fonts/ProximaNovaBold/ProximaNovaBold.woff')
+
+@include font('RobotoBold', normal, 700, './fonts/RobotoBold/RobotoBold.woff')
+@include font('RobotoRegular', normal, 700, './fonts/RobotoRegular/RobotoRegular.woff')
+
+@include font('PoppinsRegular', normal, 700, './fonts/Poppins/Poppins-Regular.ttf')
+
+
+// GENERAL DOCUMENT STYLES
+::placeholder
+  color: #666
+
+::selection
+  background-color: $accent
+  color: #fff
+
+input, textarea
+  outline: none
+  &:focus:required:invalid
+    border-color: red
+  &:required:valid
+    border-color: green
+
+body
+  font-family: $userfont
+  font-size: $fontsize
+  line-height: $lineheight
+  color: $textcolor
+  min-width: 320px
+  position: relative
+  overflow-x: hidden
+
+label
+  font-size: 16px
+
+.custom_label
+  font-size: 14px
+  margin: 0 0 4px 0
+  font-weight: 700
+
+.number_color
+  color: #D71058
+  font-size: 14px
+
+button:disabled, button[disabled]
+  border: 1px solid #999999
+  background-color: #cccccc
+  color: #666666
+  &:hover
+    border: 1px solid #999999
+    background-color: #cccccc
+    color: #666666

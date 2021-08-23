@@ -1,0 +1,82 @@
+{
+  "message": {
+    "value": "Где планируете заказать услугу?",
+    "alert": "Вам было отправленно sms с кодом"
+  },
+
+  "validation": {
+    "value": "Обязателно для заполнения"
+  },
+
+  "index_title": "Қызметке қайда тапсырыс беруді жоспарлап отырсыз?",
+  "service_newspaper": "Газеттер ұстау",
+  "service_website": "Интернет сайтKZ",
+  "service_socialNetwork": "Социальные сетиKZ",
+  "order_price": "Сумма заказа",
+  "your_query": "Ваша заявка",
+  "query_type": "Тип заявки",
+  "price": "Цена",
+
+  "ad_type": "Тип рекламы",
+  "advt": "Объявление",
+  "article": "Статья",
+  "banner": "Баннер",
+
+
+  "order_type": "Тип заказа",
+
+  "buttons": {
+    "next": "Далее",
+    "back": "Назад",
+    "start": "Начать с",
+    "stop": "Завершить",
+    "confirm": "Подтвердить"
+  },
+
+  "steps": {
+    "select_newspaper": "Выбор газеты",
+    "select_type": "Тип заказа",
+    "content": "Контент",
+    "make_request": "Оформить заявку",
+    "pay": "Оплатить"
+  },
+
+  "personal": {
+    "fio": "ФИО",
+    "iin": "ИИН",
+    "phone": "Телефон",
+    "cod": "Код подтверждения",
+    "send_code": "Выслать код"
+  },
+
+  "forms": {
+    "select_newspapers": "Выберите газету",
+    "newspapers_list": "Список газет",
+    "website_list": "Список сайтов",
+
+    "choose_category": "Выбирите рубрику",
+    "ad_text": "Текст объявления",
+    "symbol_count": "Количество символов",
+    "limit": "Лимит",
+    "select_newspaper_number": "Выберите номер газеты",
+    "article_title": "Заголовок статьи",
+    "article_text": "Текст статьи",
+    "own_text": "Свой текст",
+    "order": "Заказать",
+    "own_photo": "Свое фото",
+    "order_photo": "Заказное фото",
+    "own_banner": "Свой банер",
+    "order_banner": "Заказать дизайн банера",
+    "promo": "Рекламный пост",
+
+    "choose_website": "Выберите сайт",
+    "web_banner": "Веб баннер",
+    "select_web_banner": "Выберите баннер",
+
+    "select_social_network": "Выберите соц. сеть",
+    "image_sizes": "Доступные размеры изображений",
+    "release_dates": "Даты выхода постов",
+    "date_placement": "1 - ая дата размещения",
+    "add_post_release ": "Добавте даты выхода поста"
+  }
+}
